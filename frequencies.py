@@ -16,7 +16,7 @@ def frequencies(items):
 
     for item in items:
 
-         string_item = make_string(items)
+         string_item = make_string(item)
          string_items.append(string_item)
 
     for string_item in string_items:
