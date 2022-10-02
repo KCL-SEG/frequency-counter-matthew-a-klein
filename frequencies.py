@@ -23,7 +23,7 @@ def frequencies(items):
         if string_item in frequencies.keys():
             pass
         else:
-            frequencies.add(string_item, string_items.count(string_item))
+            frequencies[string_item] = string_items.count(string_item)
 
 
-    return frequencies
+return frequencies
