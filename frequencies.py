@@ -26,4 +26,4 @@ def frequencies(items):
             frequencies[string_item] = string_items.count(string_item)
 
 
-return frequencies
+    return frequencies
